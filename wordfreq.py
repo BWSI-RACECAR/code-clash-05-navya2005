@@ -33,7 +33,8 @@ class Solution:
         count = 0 
         newhi = str.lower(hi_string)
         list1 = list(newhi)
-        if "h i" in list1:
+        x = "h i"
+        for x in list1:
             count += 1
         return count
 
